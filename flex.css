@@ -17,4 +17,23 @@ body * + * {
     margin: 0 auto;
 }
 
+/* apply flex per il menu*/
+.sitenave{
+    display: flex;
+    padding: .5em;
+    list-style-type: none;
+    background-color: skyblue;
+    border-radius: .2em;
+}
 
+.sitenave > li{
+    margin-top: 0;
+}
+
+.sitenave > li > a{
+    display: block;
+    padding: .5em 1em;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
