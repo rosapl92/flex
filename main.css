@@ -15,3 +15,9 @@ main > * + *{ /*per separare i box in main*/
 .tile :first-child{
     margin-top: 0;
 }
+.column-main{
+    flex: 3;
+}
+.column-sidebar{
+    flex: 1;
+}
