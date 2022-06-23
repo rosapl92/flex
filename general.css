@@ -1,3 +1,22 @@
+/* impostazioni iniziali che vanno sempre fatte*/
+:root{
+    box-sizing: border-box;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body * + * {
+    margin-top: 1.5em;
+}
+
+.conteiner{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
 /*regola castom css*/
 body{
     background-color: aqua;
