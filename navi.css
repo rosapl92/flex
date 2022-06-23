@@ -4,7 +4,7 @@
 .sitenave{
     display: flex;
     padding: .5em;
-    list-style-type: none;
+    list-style-type: none;/* togie i punti alla lista*/s
     background-color: skyblue;
     border-radius: .2em;
 }
