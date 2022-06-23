@@ -28,3 +28,6 @@
 ul.sitenave > li + li{ /*tutti i figli di ul tranne il primo*/
     margin-left: .5em;
 }
+.sitenave > .nav-right{ /*per spostare il bottone a destra*/
+    margin-left: auto;
+}
