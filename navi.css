@@ -26,5 +26,5 @@
 }
 
 ul.sitenave > li + li{ /*tutti i figli di ul tranne il primo*/
-    margin-left: 1em;
+    margin-left: .5em;
 }
