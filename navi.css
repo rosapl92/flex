@@ -4,7 +4,7 @@
 .sitenave{
     display: flex;
     padding: .5em;
-    list-style-type: none;/* togie i punti alla lista*/s
+    list-style-type: none;/* togie i punti alla lista*/
     background-color: skyblue;
     border-radius: .2em;
 }
@@ -19,4 +19,12 @@
     background-color: blue;
     color: white;
     text-decoration: none;
+}
+
+.sitenave > li > a:hover{
+    background-color: cornflowerblue;
+}
+
+ul.sitenave > li + li{ /*tutti i figli di ul tranne il primo*/
+    margin-left: 1em;
 }
