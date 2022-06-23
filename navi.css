@@ -6,7 +6,7 @@
     padding: .5em;
     list-style-type: none;/* togie i punti alla lista*/
     background-color: skyblue;
-    border-radius: .2em;
+    border-radius: .3em;
 }
 
 .sitenave > li{
@@ -19,6 +19,7 @@
     background-color: blue;
     color: white;
     text-decoration: none;
+    border-radius: .3em;
 }
 
 .sitenave > li > a:hover{

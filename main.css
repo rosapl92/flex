@@ -1,14 +1,16 @@
-
+/*flex container*/
 main{
     display: flex;
 }
 
+/*flex intent*/
 main > * + *{ /*per separare i box in main*/
     margin-top: 0;
     margin-left: 1.5em;
 }
 .tile{
     background-color: white;
+    border-radius: .3em;
 }
 .tile :first-child{
     margin-top: 0;
