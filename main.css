@@ -42,7 +42,8 @@ main > * + *{ /*per separare i box in main*/
     text-align: left;
     font-weight: bold;
 }
-.login-form input:not([type=checkout]):not([type=radio]){
+.login-form input[type="text"],
+.login-form input[type="password"]{
     display: block;
     width: 100%;
     margin-top: 0;
