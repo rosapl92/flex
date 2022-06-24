@@ -21,3 +21,10 @@ main > * + *{ /*per separare i box in main*/
 .column-sidebar{
     flex: 1;
 }
+.column-sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.column-sidebar > .tile{
+    flex: 1;
+}
