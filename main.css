@@ -30,7 +30,7 @@ main > * + *{ /*per separare i box in main*/
     flex: 1;
 }
 
-/*sidebar: barra laterale*/
+/*sidebar: barra laterale sistemazione login e pagamento*/
 .login-form h3{
     margin: 0;
     font-size: .9em;
