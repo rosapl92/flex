@@ -17,10 +17,10 @@ main > * + *{ /*per separare i box in main*/
     margin-top: 0;
 }
 .column-main{
-    flex: 3;
+    flex: 5;
 }
 .column-sidebar{
-    flex: 1;
+    flex: 2;
 }
 .column-sidebar{
     display: flex;
@@ -53,36 +53,45 @@ main > * + *{ /*per separare i box in main*/
 .login-form button{
     margin-top: 1em;
     border: 1px solid aquamarine;
-    background-color: white;
+    background-color: #6872e0;
+    color: white;
     padding: .5em 1em;
     cursor: pointer;
 }
+
 .contered{
     text-align: center;
 }
-.cost{
+.special-offer{
     display: flex;
-    justify-content: center;/*sistema orizzontalmente*/
-    align-items: center;/*sistema verticalmente*/
-    line-height: .7em;/*dimensione linea di testo*/
+    flex-direction: column;
 }
-.cost > span{
+/*.cost{
+    display: flex;
+    justify-content: center;*/ /*sistema orizzontalmente*/
+    /*align-items: center;!*sistema verticalmente*!*/
+    /*line-height: .7em;!*dimensione linea di testo*!*/
+/*}*/
+/*.cost > span{
     margin-top: 0;
-}
-.cost-currency{
+}*/
+/*.cost-currency{
     font-size: 2rem;
-}
-.cost-dollars{
+}*/
+/*.cost-dollars{
     font-size: 4rem;
-}
-.cost-cents{
+}*/
+/*.cost-cents{
     font-size: 1.5rem;
     align-self: flex-start;
-}
+}*/
 .cta-button{
     display: block;
     background-color: cornflowerblue;
     color: white;
     text-decoration: none;
     padding: .5em 1em;
+    border: 1px solid aquamarine;
+    width: 100%;
+    margin-top: auto;
 }
