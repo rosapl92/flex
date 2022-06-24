@@ -64,5 +64,5 @@ main > * + *{ /*per separare i box in main*/
     display: flex;
     justify-content: center;/*sistema orizzontalmente*/
     align-items: center;/*sistema verticalmente*/
-    line-height: .7em;
+    line-height: .7em;/*dimensione linea di testo*/
 }
