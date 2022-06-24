@@ -11,6 +11,7 @@ main > * + *{ /*per separare i box in main*/
 .tile{
     background-color: white;
     border-radius: .3em;
+    padding: 1.5em;
 }
 .tile :first-child{
     margin-top: 0;
@@ -27,4 +28,31 @@ main > * + *{ /*per separare i box in main*/
 }
 .column-sidebar > .tile{
     flex: 1;
+}
+
+/*sidebar: barra laterale*/
+.login-form h3{
+    margin: 0;
+    font-size: .9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+}
+.login-form label{
+    text-align: left;
+    font-weight: bold;
+}
+.login-form input:not([type=checkout]):not([type=radio]){
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    border: 1px solid aquamarine;
+    padding: .5em 1em;
+}
+.login-form button{
+    margin-top: 1em;
+    border: 1px solid aquamarine;
+    background-color: white;
+    padding: .5em 1em;
+    cursor: pointer;
 }
