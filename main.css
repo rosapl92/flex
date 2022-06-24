@@ -66,3 +66,23 @@ main > * + *{ /*per separare i box in main*/
     align-items: center;/*sistema verticalmente*/
     line-height: .7em;/*dimensione linea di testo*/
 }
+.cost > span{
+    margin-top: 0;
+}
+.cost-currency{
+    font-size: 2rem;
+}
+.cost-dollars{
+    font-size: 4rem;
+}
+.cost-cents{
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+.cta-button{
+    display: block;
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em;
+}
