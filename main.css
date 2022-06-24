@@ -57,3 +57,12 @@ main > * + *{ /*per separare i box in main*/
     padding: .5em 1em;
     cursor: pointer;
 }
+.contered{
+    text-align: center;
+}
+.cost{
+    display: flex;
+    justify-content: center;/*sistema orizzontalmente*/
+    align-items: center;/*sistema verticalmente*/
+    line-height: .7em;
+}
