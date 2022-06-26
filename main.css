@@ -66,25 +66,31 @@ main > * + *{ /*per separare i box in main*/
     display: flex;
     flex-direction: column;
 }
-/*.cost{
+.cost{
+    margin-top: auto;
+    padding: 1.5em 0;
+}
+.cost{
     display: flex;
-    justify-content: center;*/ /*sistema orizzontalmente*/
-    /*align-items: center;!*sistema verticalmente*!*/
-    /*line-height: .7em;!*dimensione linea di testo*!*/
-/*}*/
-/*.cost > span{
+    flex-direction: row;
+    justify-content: center; /*sistema orizzontalmente*/
+    align-items: center;/*sistema verticalmente*!*/
+}
+.cost > span{
+    display: block;
     margin-top: 0;
-}*/
-/*.cost-currency{
+    line-height: .6em;/*dimensione linea di testo*!*/
+}
+.cost-currency{
     font-size: 2rem;
-}*/
-/*.cost-dollars{
+}
+.cost-dollars{
     font-size: 4rem;
-}*/
-/*.cost-cents{
+}
+.cost-cents{
     font-size: 1.5rem;
     align-self: flex-start;
-}*/
+}
 .cta-button{
     display: block;
     background-color: cornflowerblue;
